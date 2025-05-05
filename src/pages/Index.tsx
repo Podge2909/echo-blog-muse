@@ -29,9 +29,8 @@ const Index = () => {
               AI-Powered Business Transformation
             </span>
             <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl mb-6">
-              <span className="block mb-2">Leverage AI Agents for</span>
               <span className="bg-gradient-to-r from-amber-200 to-yellow-200 bg-clip-text text-transparent font-bold">
-                Business Growth & Success
+                AI Agents Cut Operational Costs by 40%: Here's How to Deploy Them
               </span>
             </h1>
             <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
