@@ -29,7 +29,7 @@ const Index = () => {
               AI-Powered Business Transformation
             </span>
             <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl mb-6">
-              AI Agents for <span className="text-gradient bg-gradient-to-r from-yellow-300 to-amber-300 bg-clip-text text-transparent">Business Growth</span>
+              Leverage AI Agents for <span className="text-gradient bg-gradient-to-r from-yellow-300 to-amber-300 bg-clip-text text-transparent">Business Growth & Success</span>
             </h1>
             <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
               Discover how startups and growing businesses can leverage AI agents to automate tasks, 
