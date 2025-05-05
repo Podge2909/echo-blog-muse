@@ -99,7 +99,7 @@ export const mockPosts = [
     content: [
       {
         type: 'paragraph',
-        content: 'When we talk about web accessibility, many developers and designers stop at meeting WCAG guidelines. But true accessibility goes beyond checkboxes and compliance—it's about creating genuinely inclusive experiences.'
+        content: "When we talk about web accessibility, many developers and designers stop at meeting WCAG guidelines. But true accessibility goes beyond checkboxes and compliance—it's about creating genuinely inclusive experiences."
       },
       {
         type: 'heading',
@@ -119,7 +119,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Automated accessibility checkers are useful, but they can't replace testing with actual users who have disabilities. Organizations should include people with diverse abilities in their user research and testing processes.'
+        content: "Automated accessibility checkers are useful, but they can't replace testing with actual users who have disabilities. Organizations should include people with diverse abilities in their user research and testing processes."
       },
       {
         type: 'image',
@@ -128,12 +128,12 @@ export const mockPosts = [
       },
       {
         type: 'quote',
-        content: 'Accessibility isn't about checking boxes. It's about empathy and understanding the diverse ways people interact with technology.',
+        content: "Accessibility isn't about checking boxes. It's about empathy and understanding the diverse ways people interact with technology.",
         author: 'Jamie Smith'
       },
       {
         type: 'paragraph',
-        content: 'By involving users with disabilities throughout the design process, you'll discover issues no automated tool would catch and build solutions that actually solve real problems.'
+        content: "By involving users with disabilities throughout the design process, you'll discover issues no automated tool would catch and build solutions that actually solve real problems."
       },
       {
         type: 'heading',
@@ -188,7 +188,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'After working with dozens of companies transitioning to microservices, I've observed that success depends less on the technology choices and more on organizational practices and design principles.'
+        content: "After working with dozens of companies transitioning to microservices, I've observed that success depends less on the technology choices and more on organizational practices and design principles."
       },
       {
         type: 'heading',
@@ -213,7 +213,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Traditional monitoring isn't sufficient for microservices. Teams need comprehensive observability through logs, metrics, and traces to understand system behavior and quickly diagnose issues.'
+        content: "Traditional monitoring isn't sufficient for microservices. Teams need comprehensive observability through logs, metrics, and traces to understand system behavior and quickly diagnose issues."
       },
       {
         type: 'paragraph',
@@ -247,7 +247,7 @@ export const mockPosts = [
     content: [
       {
         type: 'paragraph',
-        content: 'Good documentation is often treated as an afterthought in software development, but it's one of the most valuable investments a team can make—both for internal efficiency and external adoption.'
+        content: "Good documentation is often treated as an afterthought in software development, but it's one of the most valuable investments a team can make—both for internal efficiency and external adoption."
       },
       {
         type: 'heading',
@@ -259,7 +259,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Yet despite these benefits, documentation is frequently neglected because it's seen as separate from "real work" of coding. This mindset costs organizations significantly in the long run.'
+        content: 'Yet despite these benefits, documentation is frequently neglected because it\'s seen as separate from "real work" of coding. This mindset costs organizations significantly in the long run.'
       },
       {
         type: 'heading',
@@ -267,7 +267,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'The secret to effective documentation isn't just writing it—it's writing it in a way that people want to read and can easily understand.'
+        content: "The secret to effective documentation isn't just writing it—it's writing it in a way that people want to read and can easily understand."
       },
       {
         type: 'image',
@@ -289,7 +289,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Too often, documentation becomes outdated because it's treated as a one-time task rather than an ongoing responsibility. Effective teams build documentation maintenance into their workflows, updating docs with every code change.'
+        content: "Too often, documentation becomes outdated because it's treated as a one-time task rather than an ongoing responsibility. Effective teams build documentation maintenance into their workflows, updating docs with every code change."
       },
       {
         type: 'paragraph',
@@ -297,7 +297,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'By elevating the importance of documentation within your organization and treating it as a first-class citizen alongside your code, you'll create a more maintainable codebase, a more efficient team, and ultimately, a better product for your users.'
+        content: "By elevating the importance of documentation within your organization and treating it as a first-class citizen alongside your code, you'll create a more maintainable codebase, a more efficient team, and ultimately, a better product for your users."
       }
     ]
   },
@@ -323,7 +323,7 @@ export const mockPosts = [
     content: [
       {
         type: 'paragraph',
-        content: 'The internet consumes a massive amount of energy. From data centers to the devices we use to access the web, our digital activities have a significant environmental impact—an aspect of design that's often overlooked.'
+        content: "The internet consumes a massive amount of energy. From data centers to the devices we use to access the web, our digital activities have a significant environmental impact—an aspect of design that's often overlooked."
       },
       {
         type: 'heading',
@@ -348,7 +348,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Sustainable web design doesn\'t mean sacrificing aesthetics or functionality. Instead, it\'s about making conscientious choices that reduce unnecessary resource consumption while still creating effective websites.'
+        content: "Sustainable web design doesn't mean sacrificing aesthetics or functionality. Instead, it's about making conscientious choices that reduce unnecessary resource consumption while still creating effective websites."
       },
       {
         type: 'paragraph',
@@ -356,7 +356,7 @@ export const mockPosts = [
       },
       {
         type: 'quote',
-        content: 'The most sustainable web page is the one that\'s never loaded.',
+        content: "The most sustainable web page is the one that's never loaded.",
         author: 'Tom Greenwood, Sustainable Web Design'
       },
       {
@@ -365,7 +365,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Sustainability isn\'t just good for the planet—it\'s good for business too. Lighter, faster websites improve user experience, boost SEO rankings, reduce bounce rates, and lower hosting costs. They\'re also more accessible to users with slower connections or older devices.'
+        content: "Sustainability isn't just good for the planet—it's good for business too. Lighter, faster websites improve user experience, boost SEO rankings, reduce bounce rates, and lower hosting costs. They're also more accessible to users with slower connections or older devices."
       },
       {
         type: 'paragraph',
@@ -373,7 +373,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'By applying sustainable design principles, we can create beautiful, effective websites that perform well for users while minimizing their impact on the planet. It\'s a win-win approach that aligns business goals with environmental responsibility.'
+        content: "By applying sustainable design principles, we can create beautiful, effective websites that perform well for users while minimizing their impact on the planet. It's a win-win approach that aligns business goals with environmental responsibility."
       }
     ]
   },
@@ -407,7 +407,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'Web rendering has come full circle. We started with server-rendered pages, shifted to client-heavy SPAs, and now we\'re moving toward hybrid approaches that combine the best aspects of both.'
+        content: "Web rendering has come full circle. We started with server-rendered pages, shifted to client-heavy SPAs, and now we're moving toward hybrid approaches that combine the best aspects of both."
       },
       {
         type: 'paragraph',
@@ -449,7 +449,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'As web development continues to mature, we\'re seeing more nuanced approaches that move beyond the false dichotomy of "server vs. client" rendering. The future belongs to hybrid strategies that leverage the strengths of each approach while mitigating their weaknesses.'
+        content: "As web development continues to mature, we're seeing more nuanced approaches that move beyond the false dichotomy of \"server vs. client\" rendering. The future belongs to hybrid strategies that leverage the strengths of each approach while mitigating their weaknesses."
       }
     ]
   },
@@ -508,7 +508,7 @@ export const mockPosts = [
       },
       {
         type: 'quote',
-        content: 'The best state management solution is often the one you don\'t notice.',
+        content: "The best state management solution is often the one you don't notice.",
         author: 'Tanner Linsley, creator of React Query'
       },
       {
@@ -525,7 +525,7 @@ export const mockPosts = [
       },
       {
         type: 'paragraph',
-        content: 'As React itself evolves with features like Server Components and automatic memoization, we\'re seeing state management become less of a third-party concern and more integrated into the framework itself. The future belongs to more specialized, right-sized solutions rather than monolithic state containers.'
+        content: "As React itself evolves with features like Server Components and automatic memoization, we're seeing state management become less of a third-party concern and more integrated into the framework itself. The future belongs to more specialized, right-sized solutions rather than monolithic state containers."
       }
     ]
   },
@@ -574,7 +574,7 @@ export const mockCategories = [
 export const mockComments = [
   {
     id: 'comment1',
-    content: 'This article opened my eyes to the potential of AI in development. I\'ve started experimenting with some of the tools mentioned and am already seeing improvements in my workflow.',
+    content: "This article opened my eyes to the potential of AI in development. I've started experimenting with some of the tools mentioned and am already seeing improvements in my workflow.",
     created_at: '2025-05-02T09:43:00Z',
     user: {
       id: 'user1',
@@ -584,7 +584,7 @@ export const mockComments = [
   },
   {
     id: 'comment2',
-    content: 'I\'d add that edge computing is not just about performance but also about enabling new types of applications that weren\'t possible before. Great article overall!',
+    content: "I'd add that edge computing is not just about performance but also about enabling new types of applications that weren't possible before. Great article overall!",
     created_at: '2025-05-01T14:27:00Z',
     user: {
       id: 'user2',
