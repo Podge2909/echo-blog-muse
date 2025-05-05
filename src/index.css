@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Merriweather:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 262 61.8% 74.5%;
+    --primary: 250 47% 40%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 262 61.8% 74.5%;
+    --ring: 250 47% 40%;
 
     --radius: 0.5rem;
   }
@@ -48,7 +48,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 262 61.8% 74.5%;
+    --primary: 250 47% 70%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -65,7 +65,7 @@
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 262 61.8% 74.5%;
+    --ring: 250 47% 70%;
   }
 }
 
@@ -114,7 +114,7 @@
   }
   
   .blog-link {
-    @apply text-blog-highlight hover:text-blog-accent transition-colors duration-200;
+    @apply text-indigo-700 hover:text-indigo-900 transition-colors duration-200;
   }
   
   .blog-button {
@@ -125,7 +125,7 @@
   }
   
   .blog-button-primary {
-    @apply blog-button bg-blog-highlight text-white hover:bg-blog-accent h-10 py-2 px-4;
+    @apply blog-button bg-indigo-700 text-white hover:bg-indigo-800 h-10 py-2 px-4;
   }
   
   .blog-button-secondary {
@@ -135,5 +135,27 @@
   .blog-tag {
     @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium 
            transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+  }
+  
+  .text-gradient {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .animate-fade-up {
+    animation: fadeUp 1s ease-out forwards;
+  }
+  
+  @keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 }

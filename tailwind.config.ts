@@ -54,10 +54,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				blog: {
-          highlight: '#6E59A5',
-          accent: '#9b87f5',
-          muted: '#8E9196',
-          light: '#F6F6F7',
+          highlight: '#4338ca',
+          accent: '#818cf8',
+          muted: '#64748b',
+          light: '#F8FAFC',
         },
 			},
 			borderRadius: {
@@ -103,14 +103,14 @@ export default {
             maxWidth: '100ch',
             color: 'hsl(var(--foreground))',
             a: {
-              color: 'hsl(var(--primary))',
+              color: '#4338ca',
               '&:hover': {
-                color: 'hsl(var(--primary))',
+                color: '#3730a3',
               },
             },
             blockquote: {
-              borderLeftColor: '#9b87f5',
-              backgroundColor: '#F6F6F7',
+              borderLeftColor: '#818cf8',
+              backgroundColor: '#F8FAFC',
               color: 'inherit',
               fontStyle: 'italic',
             },
@@ -119,7 +119,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        serif: ['Georgia', 'serif'],
+        serif: ['Merriweather', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
 		}

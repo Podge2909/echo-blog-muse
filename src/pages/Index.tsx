@@ -16,28 +16,30 @@ const Index = () => {
   
   return (
     <Layout>
-      {/* Hero section with enhanced gradient and animations */}
-      <section className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 py-16 md:py-24 mb-16 text-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-30">
+      {/* Hero section with enhanced visibility and contrast */}
+      <section className="bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 py-16 md:py-24 mb-16 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{ 
-            backgroundImage: 'radial-gradient(circle at 25% 25%, rgba(255,255,255,0.2) 0%, transparent 50%)'
+            backgroundImage: 'radial-gradient(circle at 25% 25%, rgba(255,255,255,0.3) 0%, transparent 50%)'
           }}></div>
         </div>
         <div className="blog-container relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-in">
-            <span className="inline-block bg-yellow-500/20 text-yellow-300 px-4 py-1 rounded-full text-sm font-medium mb-4">
+            <span className="inline-block bg-amber-500/30 text-amber-200 px-4 py-1 rounded-full text-sm font-medium mb-4">
               AI-Powered Business Transformation
             </span>
             <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl mb-6">
               <span className="block mb-2">Leverage AI Agents for</span>
-              <span className="text-gradient bg-gradient-to-r from-yellow-300 to-amber-300 bg-clip-text text-transparent">Business Growth & Success</span>
+              <span className="bg-gradient-to-r from-amber-200 to-yellow-200 bg-clip-text text-transparent font-bold">
+                Business Growth & Success
+              </span>
             </h1>
-            <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
               Discover how startups and growing businesses can leverage AI agents to automate tasks, 
               gain insights, and scale operations efficiently.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild className="bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-600 hover:to-amber-600 text-black font-medium border-0">
+              <Button asChild className="bg-amber-500 hover:bg-amber-600 text-black font-medium border-0">
                 <NavLink to="/blog">Explore Strategies</NavLink>
               </Button>
               <Button asChild variant="outline" className="border-white text-white hover:bg-white/20">
@@ -60,7 +62,7 @@ const Index = () => {
       <section className="blog-container mb-16">
         <div className="flex justify-between items-center mb-8">
           <h2 className="font-serif text-3xl font-bold text-gray-800">Latest AI Business Insights</h2>
-          <Button asChild variant="outline" className="border-blog-highlight text-blog-highlight hover:bg-blog-highlight/10">
+          <Button asChild variant="outline" className="border-indigo-700 text-indigo-700 hover:bg-indigo-700/10">
             <NavLink to="/blog">View All</NavLink>
           </Button>
         </div>
@@ -84,14 +86,14 @@ const Index = () => {
                   to={`/category/${category.slug}`} 
                   className="bg-white border border-border rounded-lg p-6 hover:shadow-md transition-shadow group"
                 >
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blog-highlight to-blog-accent flex items-center justify-center text-white mb-4">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-700 to-purple-700 flex items-center justify-center text-white mb-4">
                     <span className="text-lg font-bold">{category.name.charAt(0)}</span>
                   </div>
-                  <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-blog-highlight transition-colors">{category.name}</h3>
+                  <h3 className="font-bold text-xl mb-2 text-gray-800 group-hover:text-indigo-700 transition-colors">{category.name}</h3>
                   <p className="text-sm text-muted-foreground mb-2">
                     {category.description}
                   </p>
-                  <span className="text-blog-highlight text-sm flex items-center">
+                  <span className="text-indigo-700 text-sm flex items-center">
                     {category.count} articles
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
